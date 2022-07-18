@@ -2,3 +2,5 @@ version: '3'
 services:
   duty-checker:
     image: duty-checker:latest
+    volumes:
+      - ./backups:/usr/src/app/backups
