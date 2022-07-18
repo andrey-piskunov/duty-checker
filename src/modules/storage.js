@@ -22,8 +22,6 @@ class Storage {
     console.log("Backup")
     const date = Number(new Date());
     const fullFilePath = this.path + "-" + date + this.extension;
-    console.log(fullFilePath)
-    console.log(this.userStatuses)
 
     fs.writeFile(
       fullFilePath,
